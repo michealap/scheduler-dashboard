@@ -37,9 +37,9 @@ class Dashboard extends Component {
       return (
         <Panel
           key={panel.id}
+          id={panel.id}
           label={panel.label}
           value={panel.value}
-          // onSelect={() => this.selectPanel(panel.id)}
         />
       );
     })
